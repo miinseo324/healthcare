@@ -6,6 +6,7 @@
 .wrap-center {
     width: 1280px;
     background-color: aqua;
+    margin-bottom: 100px;
 }
 
 .header > h2 {
@@ -31,6 +32,20 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.detail {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
 .item {
-    border: black;
+    background-color: white;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 2px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }

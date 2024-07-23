@@ -1,6 +1,7 @@
 import React from "react";
 import './Solution.css';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 const Solution = () => {
     return (
@@ -8,20 +9,23 @@ const Solution = () => {
             <Inbody />
             <Recom />
             <Comp />
+            <Footer />
         </div>
     );
 }
 
 function Inbody() {
     return (
-        <div>
+        <div style={{marginTop: "30px"}}>
             <div className="wrap-center">
                 <div className="header">
-                    <h2>인바디 분석 그래프</h2>
-                    <button>상세 분석 & 나의 히스토리 확인하기</button>
+                    <h2 style={{display: "inline-block"}}>인바디 분석 그래프</h2>
+                    <button>
+                        <Link to={'/pages/detail'} style={{textDecoration: "none", color: "white", display:"inline-block"}}>상세 분석 & 나의 히스토리 확인하기</Link>
+                    </button>
                 </div>
                 <div className="inbodyGraph">
-                <div style={{width: "600px", height: "200px", backgroundColor: "white", display: "inline-block"}}></div>
+                <div style={{width: "800px", height: "300px", backgroundColor: "white", display: "inline-block"}}></div>
                 </div>
 
             </div>
@@ -66,9 +70,22 @@ function Comp() {
             </div>
             <div className="otherRecom">
                 <p>회원님과 비슷한 스펙을 가진 다른 회원님들은 이런 운동과 식단을 병행하고 있습니다</p>
-                <div style={{width: "600px", height: "200px", backgroundColor: "white", display: "inline-block"}}></div>
+                <div className="container2">
+                    <div className="item">회원1</div>
+                    <div className="item">회원2</div>
+                    <div className="item">회원3</div>
+                    <div className="item">회원4</div>
+                    <div className="item">회원5</div>
+                </div>
             </div>
             
+        </div>
+    )
+}
+
+function Footer() {
+    return (
+        <div style={{height: "200px"}}>
         </div>
     )
 }
