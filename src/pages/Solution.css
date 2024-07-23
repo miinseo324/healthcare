@@ -1,0 +1,13 @@
+.wrap {
+    text-align: center;
+    display: inline-block;
+}
+
+.wrap-center {
+    width: 1280px;
+    background-color: aqua;
+}
+
+.tBlock {
+    border-color: black;
+}
