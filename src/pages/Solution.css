@@ -8,6 +8,29 @@
     background-color: aqua;
 }
 
-.tBlock {
-    border-color: black;
+.header > h2 {
+    font-size: 24;
+    text-align: "left";
+    width: 227px;
+    height: 32px;
+    background-color: blue;
+}
+
+.header > button {
+    color: white;
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+    width: 240px;
+    height: 32px;
+    border-radius: 4px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    border: black;
 }
