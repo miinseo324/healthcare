@@ -4,7 +4,7 @@ import './Navbar.css';
 
 function Navbar() {
     return (
-        <div>
+        <div className='header'>
             <div className='navbar'>
                 <Link className='navbarMenu' to={'/pages/main'}>메인 페이지</Link>
                 <Link className='navbarMenu' to={'/pages/mypage'}>마이 페이지</Link>
