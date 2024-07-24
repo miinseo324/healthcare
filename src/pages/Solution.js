@@ -51,12 +51,54 @@ function Recom() {
                     <p className="diet">식단의 경우, 600-700kcal 정도를 섭취하시고 간식은 줄여주세요</p>
                 </div>
                 <div className="container">
-                    <div className="item">추천운동1</div>
-                    <div className="item">추천운동2</div>
-                    <div className="item">추천운동3</div>
-                    <div className="item">추천식단1</div>
-                    <div className="item">추천식단2</div>
-                    <div className="item">추천식단3</div>
+                    <div className="item">
+                        <div className="pic">
+                            <p>hi</p>
+                        </div>
+                        <div className="text">
+                            <h4>추천운동 1. (조깅)</h4>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="pic">
+                            <p>hi</p>
+                        </div>
+                        <div className="text">
+                            <h4>추천운동 2. (수영)</h4>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="pic">
+                            <p>hi</p>
+                        </div>
+                        <div className="text">
+                            <h4>추천운동 3. (요가)</h4>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="pic">
+                            <p>hi</p>
+                        </div>
+                        <div className="text">
+                            <h4>추천식단 1. (두부)</h4>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="pic">
+                            <p>hi</p>
+                        </div>
+                        <div className="text">
+                            <h4>추천식단 2. (고등어)</h4>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="pic">
+                            <p>hi</p>
+                        </div>
+                        <div className="text">
+                            <h4>추천식단 3. (닭가슴살)</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -74,16 +116,24 @@ function Comp() {
 
             <div className="bodyChart">
                 <div className="bodyText">
-                    <p>비슷한 몸 상태를 가진 분들 중 상위 30%에 위치해있습니다</p>
+                    <h3>비슷한 몸 상태를 가진 분들 중 상위 30%에 위치해있습니다</h3>
                 </div>
             
                 <div className="bodyGraph" style={{width: "600px", height: "200px", backgroundColor: "white", display: "inline-block"}}></div>
             </div>
 
             <div className="otherRecom">
-                <p>회원님과 비슷한 스펙을 가진 다른 회원님들은 이런 운동과 식단을 병행하고 있습니다</p>
+                <h3>회원님과 비슷한 스펙을 가진 다른 회원님들은 이런 운동과 식단을 병행하고 있습니다</h3>
                 <div className="container2">
-                    <div className="item">회원1</div>
+                    <div className="item">
+                        <div className="customer">
+                            <div style={{width: "50%", float: "left", backgroundColor: "blueviolet"}}>회원 프로필</div>
+                            <div style={{width: "50%", float: "right", backgroundColor: "yellowgreen"}}>회원 설명</div>
+                        </div>
+                        <div className="activity" style={{backgroundColor: "orange"}}>
+                            <p>달리기, 승마</p>
+                        </div>
+                    </div>
                     <div className="item">회원2</div>
                     <div className="item">회원3</div>
                     <div className="item">회원4</div>

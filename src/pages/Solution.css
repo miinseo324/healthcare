@@ -32,10 +32,30 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
+.item {
+    background-color: white;
+    margin: 8px;
+    border-radius: 12px;
+}
+
 .detail {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 30px;
+}
+
+.pic {
+    background-color: pink;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.text {
+    background-color: palegoldenrod;
+    width: 60%;
+    height: 100%;
+    float: right;
 }
 
 .container2 {
