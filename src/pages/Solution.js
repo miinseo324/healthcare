@@ -26,6 +26,7 @@ function Inbody() {
                         </button>
                     </div>
                 </div>
+
                 <div className="body">
                     <div style={{width: "800px", height: "300px", backgroundColor: "white", display: "inline-block"}}></div>
                 </div>
@@ -70,10 +71,15 @@ function Comp() {
                     <h2>집합군 비교 분석</h2>
                 </div>
             </div>
-            <div className="inbodyChart">
-                <p>비슷한 몸 상태를 가진 분들 중 상위 30%에 위치해있습니다</p>
-                <div style={{width: "600px", height: "200px", backgroundColor: "white", display: "inline-block"}}></div>
+
+            <div className="bodyChart">
+                <div className="bodyText">
+                    <p>비슷한 몸 상태를 가진 분들 중 상위 30%에 위치해있습니다</p>
+                </div>
+            
+                <div className="bodyGraph" style={{width: "600px", height: "200px", backgroundColor: "white", display: "inline-block"}}></div>
             </div>
+
             <div className="otherRecom">
                 <p>회원님과 비슷한 스펙을 가진 다른 회원님들은 이런 운동과 식단을 병행하고 있습니다</p>
                 <div className="container2">
