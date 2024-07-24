@@ -18,14 +18,16 @@ function Inbody() {
     return (
         <div style={{marginTop: "30px"}}>
             <div className="wrap-center">
-                <div className="header">
-                    <h2 style={{display: "inline-block"}}>인바디 분석 그래프</h2>
-                    <button>
-                        <Link to={'/pages/detail'} style={{textDecoration: "none", color: "white", display:"inline-block"}}>상세 분석 & 나의 히스토리 확인하기</Link>
-                    </button>
+                <div className="header" style={{display: "flex", justifyContent: "space-between"}}>
+                    <div className="headerTitle"><h2 style={{display: "inline-block"}}>인바디 분석 그래프</h2></div>
+                    <div className="detailBtn">
+                        <button>
+                            <Link to={'/pages/detail'} style={{textDecoration: "none", color: "white", display:"inline-block"}}>상세 분석 & 나의 히스토리 확인하기</Link>
+                        </button>
+                    </div>
                 </div>
-                <div className="inbodyGraph">
-                <div style={{width: "800px", height: "300px", backgroundColor: "white", display: "inline-block"}}></div>
+                <div className="body">
+                    <div style={{width: "800px", height: "300px", backgroundColor: "white", display: "inline-block"}}></div>
                 </div>
 
             </div>
@@ -38,7 +40,9 @@ function Recom() {
         <div>
             <div className="wrap-center">
                 <div className="header">
-                    <h2>추천 솔루션</h2>
+                    <div className="headerTitle">
+                        <h2>추천 솔루션</h2>
+                    </div>
                 </div>
                 
                 <div className="detail">
@@ -62,7 +66,9 @@ function Comp() {
     return (
         <div className="wrap-center">
             <div className="header">
-                <h2>집합군 비교 분석</h2>
+                <div className="headerTitle">
+                    <h2>집합군 비교 분석</h2>
+                </div>
             </div>
             <div className="inbodyChart">
                 <p>비슷한 몸 상태를 가진 분들 중 상위 30%에 위치해있습니다</p>

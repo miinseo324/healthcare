@@ -9,7 +9,7 @@
     margin-bottom: 100px;
 }
 
-.header > h2 {
+.headerTitle > h2 {
     font-size: 24;
     text-align: "left";
     width: 227px;
@@ -17,7 +17,7 @@
     background-color: blue;
 }
 
-.header > button {
+.detailBtn > button {
     color: white;
     background-color: #00BFFF;
     border-color: #00BFFF;
@@ -36,13 +36,6 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 30px;
-}
-
-.item {
-    background-color: white;
-    margin: 10px;
-    border-radius: 12px;
-    box-shadow: 2px 2px;
 }
 
 .container2 {
